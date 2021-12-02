@@ -1,40 +1,61 @@
 using System.Collections;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine;
+using PathCreation;
 
 public class ParticulesCircle : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int countMeshs = 400;
-    public Transform Center;
-    public float Radius;
-    public GameObject[] ListeObjects;
-    public GameObject[] ListeRenderObjects;
+    public int Count = 50;
+    public GameObject[] Prefabs;
+    public Material[] Materials;
+    private GameObject[] RenderObjects;
+    private float[] RenderObjectsPosition;
+    private Vector3[] RenderObjectsVector;
+    public float ScaleObjects = 0.1f;
 
-    public float TIMEE;
+    // PATH
+    public float Speed = 0.3f;
+
+    public PathCreator pathEnd;
+    public bool DoPath;
+
+    private float endCirclePath = 3.263377f;
+    private float endPath;
+
     void Start()
-    {
-        ListeRenderObjects = new GameObject[countMeshs];
+    {   
+        RenderObjects = new GameObject[Count];
+        RenderObjectsPosition = new float[Count];
+        RenderObjectsVector = new Vector3[Count];
 
-        for (int i = 0; i < countMeshs; i++)
+        endPath = pathEnd.path.length;
+
+        for (int i = 0; i < Count; i++)
         {
-            ListeRenderObjects[i] = Instantiate(ListeObjects[Random.Range( 0, ListeObjects.Length )], new Vector3(0, 0, 0), Quaternion.identity);
+            int random = Random.Range( (int)0, (int)Prefabs.Length );
+            RenderObjects[i] = Instantiate(Prefabs[random], new Vector3(0, 0, 0), Quaternion.identity);
+            RenderObjects[i].GetComponent<Renderer>().material = Materials[Random.Range(0,Materials.Length)];
+
+            RenderObjects[i].transform.localScale = new Vector3(ScaleObjects, ScaleObjects, ScaleObjects);
+            RenderObjects[i].transform.localRotation = Quaternion.Euler(Random.Range(0.0f, 360.0f), Random.Range(0.0f, 360.0f), Random.Range(0.0f, 360.0f));
+            
+            RenderObjectsPosition[i] = ((float)i / (float)Count) * (float)endCirclePath;
+            RenderObjectsVector[i] = new Vector3(Random.Range(0, 0.2f), Random.Range(0, 0.2f), Random.Range(0, 0.2f));
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < countMeshs; i++)
-        {
-            float posI = (float)i / (float)countMeshs;
-            float time = (Time.realtimeSinceStartup * 1f) + (posI * (Mathf.PI * 4f));
-            Debug.Log($"Time {i} {time} {countMeshs} / {posI}");
-            float x = Center.position.x + Mathf.Cos(time) * Radius;
-            float y = Center.position.y;
-            float z = Center.position.z + Mathf.Sin(time) * Radius;
 
-            ListeRenderObjects[i].transform.position = new Vector3( x, y, z );
+        for (int i = 0; i < Count; i++)
+        {
+            RenderObjectsPosition[i] += Speed * Time.deltaTime;
+            if (!DoPath) RenderObjectsPosition[i] = RenderObjectsPosition[i] % endCirclePath;
+            RenderObjects[i].transform.position = pathEnd.path.GetPointAtDistance(RenderObjectsPosition[i], PathCreation.EndOfPathInstruction.Stop);
+            RenderObjects[i].transform.position += RenderObjectsVector[i];
         }
     }
 }
