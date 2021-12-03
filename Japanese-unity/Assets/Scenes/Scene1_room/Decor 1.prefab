@@ -104,8 +104,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4547032311746014803, guid: dd9aa3b10ae2c4ee4a8be95a8257349e, type: 3}
   m_PrefabInstance: {fileID: 523806992091588468}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1001 &4861863350052988503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -333,4 +331,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3785591199375310128, guid: 3ac9275b7aa674c6ca5301d883c393a7, type: 3}
->>>>>>> 68af82d5f238f660de09a36c277c854663f85854
