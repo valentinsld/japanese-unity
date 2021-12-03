@@ -8,7 +8,7 @@ public class MouseLook : MonoBehaviour
     public float mouseSensitivityX = 500f;
     public float mouseSensitivityY = 2500f;
 
-    public float topAngleMax = -15f;
+    public float topAngleMax = -20f;
     public float botAngleMax = 5f;
 
     public Transform playerBody;
