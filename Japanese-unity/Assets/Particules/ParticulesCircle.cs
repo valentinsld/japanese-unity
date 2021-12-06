@@ -23,7 +23,7 @@ public class ParticulesCircle : MonoBehaviour
     public PathCreator pathEnd;
     public bool DoPath;
 
-    private float endCirclePath = 3.263377f;
+    private float endCirclePath = 3.367626f;
     private float endPath;
 
     void Start()
@@ -33,6 +33,7 @@ public class ParticulesCircle : MonoBehaviour
         RenderObjectsVector = new Vector3[Count];
 
         endPath = pathEnd.path.length;
+        Debug.Log(endPath);
 
         for (int i = 0; i < Count; i++)
         {
