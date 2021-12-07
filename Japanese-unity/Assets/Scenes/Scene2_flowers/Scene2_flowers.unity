@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1259596888364912340
+--- !u!1001 &1338698131
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -135,16 +135,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2207897164525910428, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207897164525910428, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207897164525910428, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207897164525910428, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.5
+      value: 66.7
       objectReference: {fileID: 0}
     - target: {fileID: 2207897164525910428, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 2207897164525910428, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -58.7
+      value: 13.9
       objectReference: {fileID: 0}
     - target: {fileID: 2207897164525910428, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -174,9 +186,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4277224477748635855, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 38.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277224477748635855, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -188.69
+      objectReference: {fileID: 0}
     - target: {fileID: 8364796467244108655, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
       propertyPath: m_Name
-      value: Decor
+      value: PF-SCENE 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
+--- !u!1 &1766470810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1368376729951042579, guid: eaaae51c0943e4b3db39ffaf59700cd4, type: 3}
+  m_PrefabInstance: {fileID: 1338698131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1766470814
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766470810}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7896541262103531020, guid: 6e1bb20f9385843a095519166ec484df, type: 3}
