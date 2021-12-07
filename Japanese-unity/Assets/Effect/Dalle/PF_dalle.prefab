@@ -87,6 +87,9 @@ VisualEffect:
       - m_Value: 0
         m_Name: Percent of moving dalle
         m_Overridden: 1
+      - m_Value: 2.2
+        m_Name: DecalX
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -96,7 +99,13 @@ VisualEffect:
     m_Uint:
       m_Array: []
     m_Int:
-      m_Array: []
+      m_Array:
+      - m_Value: 70
+        m_Name: Number of dalle
+        m_Overridden: 1
+      - m_Value: 4
+        m_Name: DecalZ
+        m_Overridden: 1
     m_Matrix4x4f:
       m_Array: []
     m_AnimationCurve:

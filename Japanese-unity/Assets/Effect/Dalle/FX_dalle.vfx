@@ -20,7 +20,7 @@ MonoBehaviour:
     x: -1412
     y: -190
     width: 2778
-    height: 2531
+    height: 2530
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -233,7 +233,7 @@ VisualEffectResource:
       receiveShadows: 0
       reflectionProbeUsage: 0
       lightProbeUsage: 0
-    m_CullingFlags: 0
+    m_CullingFlags: 3
     m_UpdateMode: 0
     m_PreWarmDeltaTime: 0.05
     m_PreWarmStepCount: 0
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
@@ -2027,10 +2027,10 @@ MonoBehaviour:
   - m_Id: 1
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614663}
-      inputSlot: {fileID: 8926484042661614673}
-    - outputSlot: {fileID: 8926484042661614663}
       inputSlot: {fileID: 8926484042661614681}
-    position: {x: -232, y: 187}
+    - outputSlot: {fileID: 8926484042661614663}
+      inputSlot: {fileID: 8926484042661614673}
+    position: {x: -135.5, y: 178.5}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614663
@@ -2067,8 +2067,8 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
   m_Direction: 1
   m_LinkedSlots:
-  - {fileID: 8926484042661614673}
   - {fileID: 8926484042661614681}
+  - {fileID: 8926484042661614673}
 --- !u!114 &8926484042661614668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2516,7 +2516,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614691}
       inputSlot: {fileID: 8926484042661614684}
-    position: {x: 222, y: 300}
+    position: {x: 185, y: 318}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614691
