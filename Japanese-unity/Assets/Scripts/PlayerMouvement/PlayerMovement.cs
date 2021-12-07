@@ -39,10 +39,11 @@ public class PlayerMovement : MonoBehaviour
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
-        isMoving = Mathf.Abs(x+z)!=0;
+        // isMoving = Mathf.Abs(x+z)!=0;
 
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * speed * Time.deltaTime);
+        isMoving = move.magnitude > 0;
 
         if(Input.GetButtonDown("Jump") && isGrounded)
         {
