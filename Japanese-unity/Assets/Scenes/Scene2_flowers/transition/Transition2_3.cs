@@ -21,6 +21,7 @@ public class Transition2_3 : MonoBehaviour
     private Color ColorOut = new Color(0f, 0f, 0f, 0f);
     private string CurrentColor = "IN";
     private float StartTime = 0f;
+    private bool isEntered = false;
 
     void Start()
     {
@@ -49,7 +50,14 @@ public class Transition2_3 : MonoBehaviour
             float t = (Time.time - StartTime) * Speed;
             Material.color = Color.Lerp(ColorOut, ColorIn, t);
 
-            Debug.Log(t);
+            if(t > TimeInBlack - 0.2f && isEntered == false)
+            {
+                isEntered = true;
+                AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Scene3_house", LoadSceneMode.Additive);
+                AsyncOperation asyncLoad2 = SceneManager.LoadSceneAsync("Scene4_tori", LoadSceneMode.Additive);
+                AsyncOperation asyncUnload = SceneManager.UnloadSceneAsync("Scene2_flowers");
+                Fade();
+            }
 
             if (t > TimeInBlack)
             {
@@ -57,10 +65,6 @@ public class Transition2_3 : MonoBehaviour
                 WallLeft.GetComponent<BoxCollider>().enabled = false;
                 WallRight.GetComponent<BoxCollider>().enabled = false;
                 WallForward.GetComponent<BoxCollider>().enabled = false;
-            
-                // load scenes
-                AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Scene3_house", LoadSceneMode.Additive);
-                AsyncOperation asyncUnload = SceneManager.UnloadSceneAsync("Scene2_flowers");
 
                 StartTime = Time.fixedTime;
                 CurrentColor = "OUT";
@@ -69,8 +73,6 @@ public class Transition2_3 : MonoBehaviour
             float t = (Time.time - StartTime) * Speed;
             Material.color = Color.Lerp(ColorIn, ColorOut, t);
 
-            Debug.Log(t);
-
             if (t > TimeInBlack)
             {
                 StartTime = 0;
@@ -78,4 +80,27 @@ public class Transition2_3 : MonoBehaviour
             }
         }
     }
+
+    public void Fade() {
+      var audio = GetComponent<AudioSource>();
+
+      StartCoroutine(DoFade(audio, audio.volume, 0 ));
+
+    }
+
+    public IEnumerator DoFade(AudioSource audio, float start, float end) {
+        float counter = 0f;
+
+        while (counter < 1f) {
+            counter += Time.deltaTime;
+            audio.volume = Mathf.Lerp(start, end, easeInOutSine(counter / 1f));
+            Debug.Log($"{counter} {audio.volume}");
+            yield return null;
+        }
+    }
+
+    float easeInOutSine(float x) {
+        return -(Mathf.Cos(Mathf.PI * x) - 1f) / 2f;
+    }
+    
 }
