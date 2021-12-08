@@ -57,10 +57,10 @@ MonoBehaviour:
   m_Name: GlobalPostProcess
   m_EditorClassIdentifier: 
   components:
+  - {fileID: 6610150228925151890}
   - {fileID: -7525236606055238739}
   - {fileID: -8649228147691183068}
   - {fileID: 1351224581493526676}
-  - {fileID: 6610150228925151890}
 --- !u!114 &1351224581493526676
 MonoBehaviour:
   m_ObjectHideFlags: 3
