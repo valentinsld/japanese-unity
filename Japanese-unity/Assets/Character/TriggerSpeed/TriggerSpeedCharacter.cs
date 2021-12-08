@@ -55,6 +55,7 @@ public class TriggerSpeedCharacter : MonoBehaviour
         }
 
         yield return new WaitForSeconds(WaitSeconds);
+        GetComponent<ParticulesCircle>().DoPath = true;
 
         while (counter > 0) {
             counter -= Time.deltaTime;

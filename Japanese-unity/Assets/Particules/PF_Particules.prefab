@@ -58,8 +58,11 @@ MonoBehaviour:
       - {x: -0.5056314, y: -0.09187688, z: 0.31138563}
       - {x: -0.5152326, y: 0, z: 0.005255297}
       - {x: -0.52603525, y: 0.1033731, z: -0.33918005}
-      - {x: -0.23366153, y: 0.18782373, z: -0.5439634}
-      - {x: -0.0354222, y: 0.2, z: -0.5370073}
+      - {x: -0.23366153, y: 0.18782373, z: -0.55644464}
+      - {x: -0.0354222, y: 0.2, z: -0.54948854}
+      - {x: 0.13054568, y: 0.2101941, z: -0.5436648}
+      - {x: 0.4756152, y: 0.24032281, z: -0.54056144}
+      - {x: 1.0640461, y: 0.12773648, z: -0.56132144}
       isClosed: 0
       space: 0
       controlMode: 0
@@ -74,9 +77,10 @@ MonoBehaviour:
       - 0
       - 0
       - 0
+      - 0
       globalNormalsAngle: 179
       flipNormals: 0
-    vertexPathUpToDate: 0
+    vertexPathUpToDate: 1
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
@@ -107,6 +111,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3164929377555908860}
   - component: {fileID: -5652797944823009111}
+  - component: {fileID: 9025745049236828123}
+  - component: {fileID: 711517192641769262}
+  - component: {fileID: 6019156572784199262}
   m_Layer: 0
   m_Name: PF_Particules
   m_TagString: Untagged
@@ -157,3 +164,52 @@ MonoBehaviour:
   IncrementSPeed: 0.2
   pathEnd: {fileID: 7909668167341428555}
   DoPath: 0
+--- !u!135 &9025745049236828123
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9025053900510212232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &711517192641769262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9025053900510212232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 0
+  priority: 0
+  blendDistance: 2
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: c0dabc3fe757d47ccab849772ced59ec, type: 2}
+--- !u!114 &6019156572784199262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9025053900510212232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f952fb7225b4629a1f164e3b15245d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DurationFade: 0.6
+  WaitSeconds: 4
+  TargetSpeedCharatcer: 2
+  CharacterPlayer: {fileID: 0}
+  CharacterCamera: {fileID: 0}
+  InitMouseSensivityY: 0
+  InitMouseSensivityX: 0
