@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de2a1198ca4e44f4586670150ae9c887
+guid: c6fccb651f3384148b61ae079074e551
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -7,23 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: BLUE
-    second: {fileID: 2100000, guid: 523208405b55290409445199a7f437e2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MOTIF
-    second: {fileID: 2100000, guid: 158cfad327996494282b1db4b3e94e99, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RED
-    second: {fileID: 2100000, guid: 627891f710644854f868ec3b2201cabd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WHITE
-    second: {fileID: 2100000, guid: 7d386e9b8fd96394f87b34da3fc79d89, type: 2}
+      name: Material.002
+    second: {fileID: 2100000, guid: a19e85117816248ca8faad3d4fe32987, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
