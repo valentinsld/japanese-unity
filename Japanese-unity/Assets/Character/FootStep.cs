@@ -26,7 +26,7 @@ public class FootStep : MonoBehaviour
         time += Time.deltaTime;
 
         if(player.IsMoving() && player.IsGrounded() && !audio.isPlaying && time > delay){
-            audio.volume = Random.Range(.1f,0.2f);
+            audio.volume = Random.Range(.05f,0.08f);
             audio.pitch = Random.Range(.8f, 1.2f);
             audio.Play();
             time = 0;
