@@ -39,9 +39,13 @@ public class IntroScript : MonoBehaviour
 
         while (counter < Duration) {
             counter += Time.deltaTime;
-            canvaGroup.alpha = Mathf.Lerp(start, end, counter / Duration);
+            canvaGroup.alpha = Mathf.Lerp(start, end, easeInOutSine(counter / Duration));
 
             yield return null;
         }
+    }
+
+    float easeInOutSine(float x) {
+        return -(Mathf.Cos(Mathf.PI * x) - 1f) / 2f;
     }
 }
