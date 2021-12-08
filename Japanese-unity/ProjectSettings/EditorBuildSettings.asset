@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BasicScene/BasicScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/Scene1_room/Scene1_room.unity
+    guid: 2d7bb400fe24b49eda4f2fbbd86d4251
+  - enabled: 1
+    path: Assets/Scenes/Scene2_flowers/Scene2_flowers.unity
+    guid: c63ab3125346848c6b9b92e356a26084
+  - enabled: 1
+    path: Assets/Scenes/Scene3_house/Scene3_house.unity
+    guid: 622cc92a1bc3942c8a2d5873c852ce5b
+  - enabled: 1
+    path: Assets/Scenes/Scene4_tori/Scene4_tori.unity
+    guid: 57a0177ec20ec4b9fab57d7337dfca98
+  - enabled: 1
+    path: Assets/Scenes/outro/Outro.unity
+    guid: 9ea716c7b45844f529e55cfedb588d4b
   m_configObjects: {}

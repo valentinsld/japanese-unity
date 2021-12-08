@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Second_Normal:
-        m_Texture: {fileID: 2800000, guid: 900d84214915d48b28b83a304de802c7, type: 3}
+        m_Texture: {fileID: 2800000, guid: d9a49fc84a74348379e331c1ecf4c3f6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -42,14 +42,16 @@ Material:
     m_Ints: []
     m_Floats:
     - _Depth: 0.2
-    - _Normal_Strength: 0.569
+    - _Normal_Strength: 0.849
+    - _Normal_size: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.241
-    - _Strength: 0.942
+    - _Smoothness: 0.668
+    - _Strength: 1.433
+    - _tilingNormal: 3.47
     m_Colors:
-    - _Deep_water: {r: 0.15659484, g: 0.26091045, b: 0.4811321, a: 0.8862745}
-    - _Shallow_water: {r: 0.4014328, g: 0.6604477, b: 0.9150943, a: 0.6392157}
+    - _Deep_water: {r: 0.15659481, g: 0.26091042, b: 0.4811321, a: 0.5529412}
+    - _Shallow_water: {r: 0.40143275, g: 0.6604477, b: 0.9150943, a: 0.44705883}
   m_BuildTextureStacks: []
 --- !u!114 &8508972583725806891
 MonoBehaviour:
