@@ -1904,6 +1904,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF_Particules
       objectReference: {fileID: 0}
+    - target: {fileID: 9025745049236828123, guid: a41aab8d639094fc4a67ddc95a2816e1, type: 3}
+      propertyPath: m_Radius
+      value: 3.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025745049236828123, guid: a41aab8d639094fc4a67ddc95a2816e1, type: 3}
+      propertyPath: m_Center.y
+      value: -2.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025745049236828123, guid: a41aab8d639094fc4a67ddc95a2816e1, type: 3}
+      propertyPath: m_Center.z
+      value: 4.83
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41aab8d639094fc4a67ddc95a2816e1, type: 3}
 --- !u!1 &1390277725
