@@ -34,12 +34,11 @@ public class ParticulesCircle : MonoBehaviour
         RenderObjectsVector = new Vector3[Count];
 
         endPath = pathEnd.path.length;
-        Debug.Log(endPath);
 
         for (int i = 0; i < Count; i++)
         {
             int random = Random.Range( (int)0, (int)Prefabs.Length );
-            RenderObjects[i] = Instantiate(Prefabs[random], new Vector3(0, 0, 0), Quaternion.identity);
+            RenderObjects[i] = Instantiate(Prefabs[random], transform);
             RenderObjects[i].GetComponent<Renderer>().material = Materials[Random.Range(0,Materials.Length)];
 
             RenderObjects[i].transform.localScale = new Vector3(ScaleObjects, ScaleObjects, ScaleObjects);

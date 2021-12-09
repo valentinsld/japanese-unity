@@ -2082,6 +2082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SCENE1-DOOR
       objectReference: {fileID: 0}
+    - target: {fileID: 1427532428995760786, guid: 8d8b6cc8d7edf4044908f368e6a5fe36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1570491938897339682, guid: 8d8b6cc8d7edf4044908f368e6a5fe36, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.0479999
