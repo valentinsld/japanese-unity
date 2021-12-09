@@ -5,10 +5,12 @@ using UnityEngine;
 public class TriggerDoor : MonoBehaviour
 {
 
-    [SerializerField] private Animator myDoorController
+    [SerializeField] private Animator myDoorController;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("player"))
-        myDoorController.SetBool("playSpin2" ; true)
+        if (other.CompareTag("player")) {
+
+        myDoorController.SetBool("playSpin2" , true);
+        }
     }
 }
