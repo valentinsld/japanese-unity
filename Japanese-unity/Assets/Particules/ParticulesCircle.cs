@@ -19,6 +19,7 @@ public class ParticulesCircle : MonoBehaviour
     public float Speed = 0.3f;
     public float MaxSpeed = 1.8f;
     public float IncrementSPeed = 0.2f;
+    public float randomPositionMore = 0.2f;
 
     public PathCreator pathEnd;
     public bool DoPath;
@@ -45,7 +46,7 @@ public class ParticulesCircle : MonoBehaviour
             RenderObjects[i].transform.localRotation = Quaternion.Euler(Random.Range(0.0f, 360.0f), Random.Range(0.0f, 360.0f), Random.Range(0.0f, 360.0f));
 
             RenderObjectsPosition[i] = ((float)i / (float)Count) * (float)endCirclePath * 2.0f;
-            RenderObjectsVector[i] = new Vector3(Random.Range(0, 0.2f), Random.Range(0, 0.2f), Random.Range(0, 0.2f));
+            RenderObjectsVector[i] = new Vector3(Random.Range(0, randomPositionMore), Random.Range(0, randomPositionMore), Random.Range(0, randomPositionMore));
         }
     }
 

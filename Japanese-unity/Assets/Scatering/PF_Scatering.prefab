@@ -39,6 +39,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1468123661307873600}
     m_Modifications:
+    - target: {fileID: 4260436481686034535, guid: 2c3f31a5b946847a69030ba22f404ffd, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260436481686034535, guid: 2c3f31a5b946847a69030ba22f404ffd, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260436481686034535, guid: 2c3f31a5b946847a69030ba22f404ffd, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7325978104984411373, guid: 2c3f31a5b946847a69030ba22f404ffd, type: 3}
       propertyPath: m_Name
       value: Flower
