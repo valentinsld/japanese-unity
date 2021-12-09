@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38080066, g: 0.34487486, b: 0.3772611, a: 1}
+  m_IndirectSpecularColor: {r: 0.10419757, g: 0.12344487, b: 0.14132051, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -428,18 +428,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 106130506964268406, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 106130506964268406, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 106130506964268406, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 128108486678446914, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -475,18 +463,6 @@ PrefabInstance:
     - target: {fileID: 203633616094134138, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 230210365914604108, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 230210365914604108, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 230210365914604108, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 340749631696400141, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -504,10 +480,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 369234283760031803, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 468703294962363099, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -592,18 +564,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 628227669760240922, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 628227669760240922, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 628227669760240922, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 661997381911870283, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -664,10 +624,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 973281407963322170, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 1019125054711405970, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -703,10 +659,6 @@ PrefabInstance:
     - target: {fileID: 1049981130890477416, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1059437912468389521, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1065347132045848661, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -767,10 +719,6 @@ PrefabInstance:
     - target: {fileID: 1133443804786451818, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140636127077900059, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1146668269458336752, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LocalPosition.x
@@ -804,10 +752,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1251519598677215726, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 1333084290863335124, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -855,14 +799,6 @@ PrefabInstance:
     - target: {fileID: 1410085836678450384, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1425536976404579663, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1475422965565768989, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1497436037938420736, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -947,18 +883,6 @@ PrefabInstance:
     - target: {fileID: 1686989270661399444, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1702560267030098816, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1702560267030098816, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1702560267030098816, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1708107883793072786, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -1092,18 +1016,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1877326793345550392, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1877326793345550392, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1877326793345550392, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1909222798811552786, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -1127,18 +1039,6 @@ PrefabInstance:
     - target: {fileID: 1915879235069032031, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1974628365808847319, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1974628365808847319, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1974628365808847319, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2003997923910954181, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -1211,22 +1111,6 @@ PrefabInstance:
     - target: {fileID: 2250010467116798349, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2341874501881910788, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2341874501881910788, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2341874501881910788, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2386541227300183759, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2407883856075677977, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -1648,10 +1532,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3423250410655577804, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3433715936464786596, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -1663,14 +1543,6 @@ PrefabInstance:
     - target: {fileID: 3433715936464786596, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3449955269639363159, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3486205148528858593, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3548390380005443596, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_RootOrder
@@ -1768,10 +1640,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3871436534029182493, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3908615912574954657, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -1879,18 +1747,6 @@ PrefabInstance:
     - target: {fileID: 4210625704853565920, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4295670443266901421, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4295670443266901421, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4295670443266901421, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4309484533281594419, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1932,18 +1788,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -88.8
       objectReference: {fileID: 0}
-    - target: {fileID: 4314648124962774410, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4314648124962774410, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4314648124962774410, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4325798036845498489, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -1991,10 +1835,6 @@ PrefabInstance:
     - target: {fileID: 4374599192020436665, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408506951863621185, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4415570339294992676, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -2010,15 +1850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4450114734623754676, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4450114734623754676, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4450114734623754676, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
+      value: 1.77
       objectReference: {fileID: 0}
     - target: {fileID: 4516894902568921146, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -2080,18 +1912,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4619609890078678058, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4619609890078678058, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4619609890078678058, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4656048964029475233, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -2140,18 +1960,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4680928187206934755, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4680928187206934755, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4680928187206934755, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4716352903868945286, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -2175,18 +1983,6 @@ PrefabInstance:
     - target: {fileID: 4785499407247403756, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4800597543548843385, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4800597543548843385, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4800597543548843385, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4806225184037569860, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -2476,22 +2272,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5070153180815652854, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 5105901197525634416, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5105901197525634416, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5105901197525634416, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5118248129242385546, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -2611,10 +2391,6 @@ PrefabInstance:
     - target: {fileID: 5373362637232702040, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376210412925472948, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5416956688653075070, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -2736,10 +2512,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5549893932487815512, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5666856243559769002, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -2763,10 +2535,6 @@ PrefabInstance:
     - target: {fileID: 5677474322733552134, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5683544319490342146, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.78
       objectReference: {fileID: 0}
     - target: {fileID: 5774548894220112349, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -2803,30 +2571,10 @@ PrefabInstance:
     - target: {fileID: 5974023753213263258, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5984542698255917108, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5984542698255917108, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5984542698255917108, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5986002434109176266, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5986002434109176266, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5986002434109176266, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
+      value: 25.76
       objectReference: {fileID: 0}
     - target: {fileID: 6003228471894540206, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -2976,10 +2724,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6459136160921730320, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6479361430851175414, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3015,10 +2759,6 @@ PrefabInstance:
     - target: {fileID: 6515320010748955824, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6519583903399723161, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6520218076734775011, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -3087,14 +2827,6 @@ PrefabInstance:
     - target: {fileID: 6584797479910141371, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: InitialModule.startLifetime.minScalar
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6658296153287059408, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6658777903542510789, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6669665147368911042, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -3212,22 +2944,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7165821687410675309, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 7172211589558437061, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7172211589558437061, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7172211589558437061, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7190942761259506640, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3239,18 +2955,6 @@ PrefabInstance:
     - target: {fileID: 7190942761259506640, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7226335165273930897, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7226335165273930897, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7226335165273930897, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7257142264867825216, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3296,10 +3000,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7314128026990641192, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 7347251956079950861, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3323,10 +3023,6 @@ PrefabInstance:
     - target: {fileID: 7364235088511204859, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7405078046317703785, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7416637838775412019, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -3376,10 +3072,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7535038292466384617, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 7537042072742846524, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3427,18 +3119,10 @@ PrefabInstance:
     - target: {fileID: 7592049938108790960, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7693796441430582282, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7693796441430582282, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7693796441430582282, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 7733085271878965801, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -3475,18 +3159,6 @@ PrefabInstance:
     - target: {fileID: 7820277756913665693, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7831272754761905566, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7831272754761905566, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7831272754761905566, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7870328356341278242, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3500,10 +3172,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 121.27
       objectReference: {fileID: 0}
-    - target: {fileID: 7890014773729008043, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 7905593091314140185, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3528,30 +3196,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7937139195563613286, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7937139195563613286, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7937139195563613286, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998751586461246357, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998751586461246357, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7998751586461246357, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8046783217354588596, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3575,18 +3219,6 @@ PrefabInstance:
     - target: {fileID: 8096940303099009091, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105787730694516531, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105787730694516531, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105787730694516531, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8197261909839134468, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -3672,18 +3304,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8414404127921742984, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8414404127921742984, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8414404127921742984, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8422122036360007940, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3695,22 +3315,6 @@ PrefabInstance:
     - target: {fileID: 8422122036360007940, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8461001751511440963, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 8533747665294043244, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8533747665294043244, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8533747665294043244, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8564789549695479937, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -3748,10 +3352,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8603377063659932168, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 8649052558832326360, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3763,10 +3363,6 @@ PrefabInstance:
     - target: {fileID: 8649052558832326360, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652510633620261853, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8678196310674720789, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
@@ -3860,18 +3456,6 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8985195554471936865, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8985195554471936865, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8985195554471936865, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9107421854254515228, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3907,18 +3491,6 @@ PrefabInstance:
     - target: {fileID: 9185875841299991460, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_LightProbeUsage
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9210467892709969183, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Range
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9210467892709969183, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Intensity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9210467892709969183, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
