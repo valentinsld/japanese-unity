@@ -771,6 +771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InitScenes
       objectReference: {fileID: 0}
+    - target: {fileID: 7245566894104156556, guid: 3737be613ea1c48cd89037d952d7f78b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3737be613ea1c48cd89037d952d7f78b, type: 3}
 --- !u!4 &772144199
@@ -1381,15 +1385,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19666357952058111, guid: 459f6cf0fbf154ec094b0b3fdb0eca0a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.8
+      value: 78.831
       objectReference: {fileID: 0}
     - target: {fileID: 19666357952058111, guid: 459f6cf0fbf154ec094b0b3fdb0eca0a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.192
+      value: -0.439
       objectReference: {fileID: 0}
     - target: {fileID: 19666357952058111, guid: 459f6cf0fbf154ec094b0b3fdb0eca0a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.49
+      value: 19.5
       objectReference: {fileID: 0}
     - target: {fileID: 19666357952058111, guid: 459f6cf0fbf154ec094b0b3fdb0eca0a, type: 3}
       propertyPath: m_LocalRotation.w
