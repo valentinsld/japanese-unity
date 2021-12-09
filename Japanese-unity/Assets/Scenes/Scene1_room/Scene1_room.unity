@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+  m_SubtractiveShadowColor: {r: 0.047169805, g: 0.047169805, b: 0.047169805, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 0ffaa0b7117ba8c47a9d05ae701d4b4d, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -33,12 +33,12 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 256
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.20749128, g: 0.21147478, b: 0.14576817, a: 1}
+  m_IndirectSpecularColor: {r: 0.0042935386, g: 0.0073068077, b: 0.070400916, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1186,7 +1186,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8584906, g: 0.09761889, b: 0.0040494935, a: 1}
-  m_Intensity: 2.6
+  m_Intensity: 6.99
   m_Range: 9.97
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1244,7 +1244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080223302}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -87.63, y: -6.46, z: -14.13}
+  m_LocalPosition: {x: -88.33, y: -9.02, z: -2.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1260,13 +1260,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1080223302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b51d2a5d76d046d8965317335e93556, type: 3}
+  m_Script: {fileID: 11500000, guid: 07d7bc6eb4a8d4b118b6d59e17ba545d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFlickering: 0
-  timeDelay: 0
-  minDelay: 0.01
-  maxDelay: 0.2
+  strength: 6
+  frequency: 3
 --- !u!1 &1091787590 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 157407151919887187, guid: fe898e16535e04db3ae405277b29745b, type: 3}
@@ -1720,6 +1718,18 @@ PrefabInstance:
     - target: {fileID: 1113669627138077290, guid: 80f16f43d75b64053899adc599010188, type: 3}
       propertyPath: prewarm
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2338,6 +2348,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.74
       objectReference: {fileID: 0}
@@ -2406,13 +2428,29 @@ PrefabInstance:
       propertyPath: prewarm
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1113669627138077290, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.1181407
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.58
+      objectReference: {fileID: 0}
     - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.31
       objectReference: {fileID: 0}
     - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.41
+      value: -1.01
       objectReference: {fileID: 0}
     - target: {fileID: 3843473339740824400, guid: 80f16f43d75b64053899adc599010188, type: 3}
       propertyPath: m_LocalPosition.z
