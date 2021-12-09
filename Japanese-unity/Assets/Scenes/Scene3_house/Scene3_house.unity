@@ -174,26 +174,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
-      propertyPath: prewarm
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.a
-      value: 0.16862746
-      objectReference: {fileID: 0}
-    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.82382524
-      objectReference: {fileID: 0}
-    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.863662
-      objectReference: {fileID: 0}
-    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.9339623
-      objectReference: {fileID: 0}
     - target: {fileID: 5635886865214565167, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
       propertyPath: m_Name
       value: Fog
