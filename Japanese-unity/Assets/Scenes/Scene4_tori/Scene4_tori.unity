@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38080066, g: 0.34487486, b: 0.3772611, a: 1}
+  m_IndirectSpecularColor: {r: 0.10419757, g: 0.12344487, b: 0.14132051, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000006, guid: 094f0e907ee7d444d9324922b46bd996, type: 2}
+  m_LightingDataAsset: {fileID: 112000006, guid: fc9af2693d0de4d1b87367d2cdc615e7, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1848,6 +1848,10 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4450114734623754676, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
+      propertyPath: m_Range
+      value: 1.77
+      objectReference: {fileID: 0}
     - target: {fileID: 4516894902568921146, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3192,6 +3196,10 @@ PrefabInstance:
       propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7949957415041040858, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8046783217354588596, guid: a16a0ca67811b48aaaed5be044e6a588, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3553,17 +3561,17 @@ AudioSource:
       inWeight: 0
       outWeight: 0.31133738
     - serializedVersion: 3
-      time: 0.4737132
-      value: 0.41053772
-      inSlope: -2.4324808
-      outSlope: -2.4324808
+      time: 0.46051434
+      value: 0.45906067
+      inSlope: -1.8080294
+      outSlope: -1.8080294
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.29167452
+      outWeight: 0.40496156
     - serializedVersion: 3
       time: 0.6544576
-      value: 0.13388062
+      value: 0.19534302
       inSlope: -0.37754583
       outSlope: -0.37754583
       tangentMode: 0
@@ -3572,7 +3580,7 @@ AudioSource:
       outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 0.05280355
+      value: 0.111031085
       inSlope: -0.033346657
       outSlope: -0.033346657
       tangentMode: 0
