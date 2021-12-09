@@ -33,8 +33,10 @@ public class OOOOOOOUTROOOO : MonoBehaviour
         AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync("BasicScene");
         AsyncOperation asyncLoad1 = SceneManager.UnloadSceneAsync("Scene3_house");
         AsyncOperation asyncLoad2 = SceneManager.UnloadSceneAsync("Scene4_tori");
+        AsyncOperation asyncLoad3 = SceneManager.UnloadSceneAsync("Intro");
+        AsyncOperation asyncLoad4 = SceneManager.UnloadSceneAsync("Welcome");
 
-        AsyncOperation asyncLoad3 = SceneManager.LoadSceneAsync("VideoEnd", LoadSceneMode.Additive);
+        AsyncOperation asyncLoad5 = SceneManager.LoadSceneAsync("End", LoadSceneMode.Additive);
 
         while (counter > 0) {
             counter -= Time.deltaTime;

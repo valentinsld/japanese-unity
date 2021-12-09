@@ -243,6 +243,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5652797944823009111, guid: a41aab8d639094fc4a67ddc95a2816e1, type: 3}
+      propertyPath: MaxSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -5652797944823009111, guid: a41aab8d639094fc4a67ddc95a2816e1, type: 3}
+      propertyPath: IncrementSPeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -5652797944823009111, guid: a41aab8d639094fc4a67ddc95a2816e1, type: 3}
+      propertyPath: randomPositionMore
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3164929377555908860, guid: a41aab8d639094fc4a67ddc95a2816e1, type: 3}
       propertyPath: m_RootOrder
       value: 4
