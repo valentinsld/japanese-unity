@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.010717783, g: 0.019602612, b: 0.107711464, a: 1}
+  m_IndirectSpecularColor: {r: 0.38080066, g: 0.34487486, b: 0.3772611, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: 86c04d42f2254e046a53f73b795fd52b, type: 2}
+  m_LightingDataAsset: {fileID: 112000002, guid: 094f0e907ee7d444d9324922b46bd996, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2595,6 +2595,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 2673504604945869955, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
     - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_Range
       value: 28.2
@@ -2637,7 +2641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2731,6 +2735,18 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 5680007933841853301, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680007933841853301, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680007933841853301, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5854589197673884634, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2814,6 +2830,10 @@ PrefabInstance:
     - target: {fileID: 6932896575080566744, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_RootOrder
       value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000884048670713947, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: MaxDistance
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7000884048670713947, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: OutputAudioMixerGroup
