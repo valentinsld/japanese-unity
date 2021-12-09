@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.38080066, g: 0.34487486, b: 0.3772611, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 094f0e907ee7d444d9324922b46bd996, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -173,6 +173,22 @@ PrefabInstance:
     - target: {fileID: 708588085714165125, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.43137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.8220452
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256534849415831561, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.82740486
       objectReference: {fileID: 0}
     - target: {fileID: 5635886865214565167, guid: e0f53c15fc55c46ddb244c1b5606b32c, type: 3}
       propertyPath: m_Name
