@@ -18,17 +18,15 @@ public class FootStep : MonoBehaviour
     void Start()
     {
         audio = GetComponent<AudioSource>();
-        Debug.Log(audio);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(player.IsMoving() + " " +  player.IsGrounded());
         time += Time.deltaTime;
 
         if(player.IsMoving() && player.IsGrounded() && !audio.isPlaying && time > delay){
-            audio.volume = Random.Range(.8f,1.0f);
+            audio.volume = Random.Range(.05f,0.08f);
             audio.pitch = Random.Range(.8f, 1.2f);
             audio.Play();
             time = 0;
