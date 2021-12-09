@@ -8,22 +8,8 @@ public class initScene : MonoBehaviour
 {
     private void Awake()
     {
-        // load some additional scenes
-        SceneManager.LoadScene("Main Menu", LoadSceneMode.Additive);
-        SceneManager.LoadScene("Game", LoadSceneMode.Additive);
-
-        // list scenes and try to print their name (if they are valid)
-        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
-        {
-            Scene scene = SceneManager.GetSceneByBuildIndex(i);
-            if (scene.IsValid()) // a scene is only valid if it's loaded!
-                Debug.Log($"Scene #{i}: {scene.name}");
-            else
-                Debug.Log($"Scene #{i} not loaded yet!");
-        }
-        
-        // get a scene by name
-        Debug.Log($"Scene \"Core\" has path \"{SceneManager.GetSceneByName("Core").path}\"");
+        AsyncOperation asyncLoad1 = SceneManager.LoadSceneAsync("Intro", LoadSceneMode.Additive);
+        AsyncOperation asyncLoad2 = SceneManager.LoadSceneAsync("Scene1_room", LoadSceneMode.Additive);
     }
 
 }
