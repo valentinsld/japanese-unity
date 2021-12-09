@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 41295219}
   - component: {fileID: 41295221}
   - component: {fileID: 41295220}
+  - component: {fileID: 41295222}
   m_Layer: 0
   m_Name: Bougie 1 (18)
   m_TagString: Untagged
@@ -238,6 +239,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &41295222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41295218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 25
 --- !u!1 &42497354
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,6 +264,7 @@ GameObject:
   - component: {fileID: 42497355}
   - component: {fileID: 42497357}
   - component: {fileID: 42497356}
+  - component: {fileID: 42497358}
   m_Layer: 0
   m_Name: Bougie 1 (10)
   m_TagString: Untagged
@@ -353,6 +369,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &42497358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42497354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 15
 --- !u!1 &239915890
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +394,7 @@ GameObject:
   - component: {fileID: 239915891}
   - component: {fileID: 239915893}
   - component: {fileID: 239915892}
+  - component: {fileID: 239915894}
   m_Layer: 0
   m_Name: Bougie 1 (16)
   m_TagString: Untagged
@@ -468,6 +499,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &239915894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239915890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 15
 --- !u!1 &274320541
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +524,7 @@ GameObject:
   - component: {fileID: 274320542}
   - component: {fileID: 274320544}
   - component: {fileID: 274320543}
+  - component: {fileID: 274320545}
   m_Layer: 0
   m_Name: Bougie 1 (17)
   m_TagString: Untagged
@@ -583,6 +629,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &274320545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274320541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 20
 --- !u!1 &371381962
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +654,7 @@ GameObject:
   - component: {fileID: 371381963}
   - component: {fileID: 371381965}
   - component: {fileID: 371381964}
+  - component: {fileID: 371381966}
   m_Layer: 0
   m_Name: Bougie 1 (8)
   m_TagString: Untagged
@@ -698,6 +759,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &371381966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371381962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 22
 --- !u!1 &398992685
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +784,7 @@ GameObject:
   - component: {fileID: 398992686}
   - component: {fileID: 398992688}
   - component: {fileID: 398992687}
+  - component: {fileID: 398992689}
   m_Layer: 0
   m_Name: Bougie 1 (23)
   m_TagString: Untagged
@@ -813,6 +889,44 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &398992689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398992685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 8
+--- !u!1 &527860873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 560531054961307992, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+  m_PrefabInstance: {fileID: 4026312088542146368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &527860875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527860873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b47fe26fc50449bb955dc4f32ad901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  Source: {fileID: 527860876}
+--- !u!82 &527860876 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7000884048670713947, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+  m_PrefabInstance: {fileID: 4026312088542146368}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &546909337
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +938,7 @@ GameObject:
   - component: {fileID: 546909338}
   - component: {fileID: 546909340}
   - component: {fileID: 546909339}
+  - component: {fileID: 546909341}
   m_Layer: 0
   m_Name: Bougie 1 (13)
   m_TagString: Untagged
@@ -928,6 +1043,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &546909341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546909337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 23
 --- !u!1 &678977497
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +1068,7 @@ GameObject:
   - component: {fileID: 678977498}
   - component: {fileID: 678977500}
   - component: {fileID: 678977499}
+  - component: {fileID: 678977501}
   m_Layer: 0
   m_Name: Bougie 1 (22)
   m_TagString: Untagged
@@ -1043,6 +1173,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &678977501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678977497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 8
 --- !u!1 &764022598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,6 +1198,7 @@ GameObject:
   - component: {fileID: 764022599}
   - component: {fileID: 764022601}
   - component: {fileID: 764022600}
+  - component: {fileID: 764022602}
   m_Layer: 0
   m_Name: Bougie 1 (11)
   m_TagString: Untagged
@@ -1158,6 +1303,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &764022602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764022598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 24
 --- !u!1 &969896603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,6 +1328,7 @@ GameObject:
   - component: {fileID: 969896604}
   - component: {fileID: 969896606}
   - component: {fileID: 969896605}
+  - component: {fileID: 969896607}
   m_Layer: 0
   m_Name: Bougie 1 (19)
   m_TagString: Untagged
@@ -1273,6 +1433,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &969896607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969896603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 10
 --- !u!1 &1123645298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,6 +1458,7 @@ GameObject:
   - component: {fileID: 1123645299}
   - component: {fileID: 1123645301}
   - component: {fileID: 1123645300}
+  - component: {fileID: 1123645302}
   m_Layer: 0
   m_Name: Bougie 1 (21)
   m_TagString: Untagged
@@ -1388,6 +1563,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1123645302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123645298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 15
 --- !u!1 &1210498235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,6 +1588,7 @@ GameObject:
   - component: {fileID: 1210498236}
   - component: {fileID: 1210498238}
   - component: {fileID: 1210498237}
+  - component: {fileID: 1210498239}
   m_Layer: 0
   m_Name: Bougie 1 (12)
   m_TagString: Untagged
@@ -1503,6 +1693,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1210498239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210498235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 16
 --- !u!1 &1289036682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,6 +1718,7 @@ GameObject:
   - component: {fileID: 1289036683}
   - component: {fileID: 1289036685}
   - component: {fileID: 1289036684}
+  - component: {fileID: 1289036686}
   m_Layer: 0
   m_Name: Bougie 1 (15)
   m_TagString: Untagged
@@ -1618,6 +1823,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1289036686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289036682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 10
 --- !u!1 &1390277725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,6 +1848,7 @@ GameObject:
   - component: {fileID: 1390277726}
   - component: {fileID: 1390277728}
   - component: {fileID: 1390277727}
+  - component: {fileID: 1390277729}
   m_Layer: 0
   m_Name: Bougie 1 (24)
   m_TagString: Untagged
@@ -1733,6 +1953,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1390277729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390277725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 12
 --- !u!1 &1805413478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +1978,7 @@ GameObject:
   - component: {fileID: 1805413479}
   - component: {fileID: 1805413481}
   - component: {fileID: 1805413480}
+  - component: {fileID: 1805413482}
   m_Layer: 0
   m_Name: Bougie 1 (9)
   m_TagString: Untagged
@@ -1848,6 +2083,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1805413482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805413478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 8
 --- !u!1 &1806633847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,6 +2108,7 @@ GameObject:
   - component: {fileID: 1806633848}
   - component: {fileID: 1806633850}
   - component: {fileID: 1806633849}
+  - component: {fileID: 1806633851}
   m_Layer: 0
   m_Name: Bougie 1 (7)
   m_TagString: Untagged
@@ -1879,7 +2129,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4026312088542146369}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 34.168, z: 0}
 --- !u!114 &1806633849
 MonoBehaviour:
@@ -1963,6 +2213,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1806633851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806633847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 10
 --- !u!1 &2050787058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,6 +2238,7 @@ GameObject:
   - component: {fileID: 2050787059}
   - component: {fileID: 2050787061}
   - component: {fileID: 2050787060}
+  - component: {fileID: 2050787062}
   m_Layer: 0
   m_Name: Bougie 1 (20)
   m_TagString: Untagged
@@ -2078,6 +2343,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &2050787062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050787058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 12
 --- !u!1 &2121935599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2089,6 +2368,7 @@ GameObject:
   - component: {fileID: 2121935600}
   - component: {fileID: 2121935602}
   - component: {fileID: 2121935601}
+  - component: {fileID: 2121935603}
   m_Layer: 0
   m_Name: Bougie 1 (14)
   m_TagString: Untagged
@@ -2193,6 +2473,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &2121935603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121935599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b81683e4bea1432b92670a94e2948fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: e465146cdbf4a4f4cbb33a021386741e, type: 2}
+  IntensityMultiplier: 10
 --- !u!1001 &4026312088542146368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2232,9 +2526,85 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_Range
+      value: 28.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_Color.g
+      value: 0.70865965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_Color.r
+      value: 0.49279103
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_Intensity
+      value: 2938
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_SpotAngle
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_ColorTemperature
+      value: 6793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699464038643357368, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_UseColorTemperature
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3165410498691611125, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_RootOrder
       value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -215.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 62.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.58527935
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7967613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08903769
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.12121012
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 107.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204555009095617610, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 17.3
       objectReference: {fileID: 0}
     - target: {fileID: 3279467694287052800, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_RootOrder
@@ -2376,9 +2746,13 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 7000884048670713947, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -5450958336672982036, guid: 27f1243b76a2b46189d6fa01b6338045, type: 2}
     - target: {fileID: 7580530778612930165, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7860826578403206774, guid: 37549a01e1b5e47ec8fcacf22bd95814, type: 3}
       propertyPath: m_RootOrder
