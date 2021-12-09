@@ -9,8 +9,7 @@ public class TriggerDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("player")) {
-
-        myDoorController.SetBool("playSpin2" , true);
+            myDoorController.SetBool("playSpin2" , true);
         }
     }
 }
