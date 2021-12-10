@@ -79,7 +79,7 @@ public class TriggerSpeedCharacter : MonoBehaviour
 
         while (counter < DurationFade * 5) {
             counter += Time.deltaTime;
-            Door.transform.Rotate(0f, Mathf.Lerp(0.0f, -1f, counter / DurationFade * 5), 0.0f, Space.World);
+            Door.transform.Rotate(0f, Mathf.Lerp(0.0f, -0.5f, counter / DurationFade * 5), 0.0f, Space.World);
             yield return null;
         }
 

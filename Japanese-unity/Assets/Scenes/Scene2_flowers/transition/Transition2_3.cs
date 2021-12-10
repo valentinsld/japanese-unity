@@ -14,7 +14,7 @@ public class Transition2_3 : MonoBehaviour
     public Material Material;
 
     public float Speed = 0.5f;
-    public float TimeInBlack = 3.0f;
+    public float TimeInBlack = 6.0f;
 
     //COLORS
     private Color ColorIn = new Color(0f, 0f, 0f, 1f);
